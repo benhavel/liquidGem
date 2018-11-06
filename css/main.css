@@ -1,0 +1,238 @@
+/*Cascading Style Sheets*/
+html {
+	background-color: #EEE;
+}
+body {
+	margin: 0;
+}
+nav {
+	font-family: 'Roboto', sans-serif;
+}
+nav i, h1, ul, li{
+	display: inline-block;
+}
+nav ul{
+	float: right;
+	padding-top: 15px;
+	margin: 0;
+}
+nav h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+}
+nav li {
+	padding: 20px;
+}
+nav i{
+	color: pink;
+	font-size: 20px;
+	padding-left: 20px;
+}
+.headline, h1, h3{
+	text-align: center;
+}
+
+.headline h1 {
+	padding-top: 50px;
+	font-size: 25px;
+}
+.headline span {
+	color: pink;
+}
+
+.headline h3 {
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+}
+
+.headlineimg img {
+	width: 95%;
+	border-radius: 15px;
+	background-position: top;
+	height: 400px;
+}
+.headlineimg {
+	text-align: center;
+	padding: 100px 0 30px 0;
+}
+.left, .right {
+	display: inline-block;
+	width: 45%;
+	text-align: left;
+	padding-left: 55px;
+	margin: 0;
+
+}
+
+.left p, .right p {
+	width: 80%;
+}
+.left h1, .right h1 {
+	color: pink;
+	font-family: 'Pacifico', cursive;
+	margin: 0;
+	padding-left: 150px;
+}
+
+/*images section*/
+.images {
+	position: relative;
+	display: inline-block;
+	margin: 5px;
+}
+
+.images img{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 20px;
+	margin-left: 30px;
+	box-shadow: 0 5px 4px -3px gray;
+
+}
+.images h1 {
+	background-color: white;
+	margin: 0;
+	font-size: 25px;
+}
+.images p {
+	display: inline-block;
+	color: pink;
+	background-color: white;
+	margin: 0;
+	padding: 5px;
+}
+.imagescenter {
+	text-align: center;
+}
+
+.name {
+	text-align: center;
+	width: 200px;
+	background-color: white;
+	position: absolute;
+	bottom: 4px;
+	left: 30px; 
+	border-radius: 0 0 15px 15px;
+}
+.lastwords {
+	text-align: center;
+}
+.lastwords h1{
+	color: pink;
+	font-family: 'Pacifico', cursive;
+	padding: 50px 0 10px 0;
+}
+footer {
+	color: white;
+	background-color: black;
+	margin: 0
+	padding: 0;
+	width:100%;
+    bottom:0;
+    left:0;
+}
+.bottom {
+	display: inline-block;
+	padding: 30px 0 30px 30px;
+}
+.bottom h1 {
+	color: pink;
+	font-family: 'Pacifico', cursive;
+}
+.bottom input{
+	width: 300px;
+}
+.bottom .button{
+	width: 120px;
+	text-align: left;
+	color: white;
+	background-color: black;
+	border-color: black;
+	padding: 0;
+	margin: 0;
+}
+.bottom .message{
+	height: 50px;
+	padding: 0 0 20px 0;
+	margin: 0;
+}
+footer i {
+	display: inline-block;
+	color: pink;
+	font-size: 30px;
+	border-radius: 50%;
+	float: right;
+	padding: 150px 25px 0 0;
+}
+
+@media (max-width: 1099px){
+
+.left, .right {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding-left: 40px;
+	padding-bottom: 40px;
+	margin: 0;
+
+	}	
+.left h1, .right h1 {
+	padding-left: 0;
+	text-align: center;
+	}
+.left p, .right p {
+	margin: 0 auto;
+	width: 70%;
+	padding: 10px;
+	}
+
+}
+
+@media (max-width: 575px){
+	.left, .right {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding-left: 0px;
+	padding-bottom: 10px;
+	margin: 0;
+
+	}	
+	.left h1, .right h1 {
+		padding-left: 0;
+		text-align: center;
+		}
+	.left p, .right p {
+		margin: 0 auto;
+		width: 70%;
+		padding: 10px;
+		}
+
+	}
+	
+	nav li {
+		font-size: 12px;
+		padding: 0 0 0 0;
+		margin: 0 auto;
+	}
+
+	.bottom {
+	display: inline-block;
+	padding: 20px;
+	width: 100%;
+	}
+
+	footer{
+		background-color: black;
+	}
+
+	footer i {
+	color: pink;
+	font-size: 30px;
+	border-radius: 50%;
+	padding: 10px 25px 0 0;
+	}	
+
+}
