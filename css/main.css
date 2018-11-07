@@ -209,8 +209,6 @@ footer i {
 		width: 70%;
 		padding: 10px;
 		}
-
-	}
 	
 	nav li {
 		font-size: 12px;
@@ -226,13 +224,16 @@ footer i {
 
 	footer{
 		background-color: black;
+		text-align: center;
 	}
 
 	footer i {
 	color: pink;
 	font-size: 30px;
 	border-radius: 50%;
-	padding: 10px 25px 0 0;
+	padding: 10px 60px 10px 0px;
+
 	}	
+
 
 }
